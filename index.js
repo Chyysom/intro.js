@@ -1,4 +1,5 @@
 
+
 const express = require('express');  //imports express into this file i installed,
 // now i'm using it//
 const app = express(); // create server (my api) app is my main backend//
@@ -36,3 +37,6 @@ app.listen(PORT, () => {
 });
 
 express.static('public')
+
+console.log( 'hello, world')
+
